@@ -2,8 +2,10 @@ import React from 'react'
 
 const Product = () => {
   return (
-    <div>
-      <h1 className='flex h-screen text-5xl underline items-center justify-center'>This is the product page</h1>
+    <div className='flex flex-row gap-4 justify-center '>
+      <h1 className='p-4'>Mens</h1>
+      <h1 className='p-4'>Women</h1>
+      <h1 className='p-4'>Kids</h1>
     </div>
   )
 }

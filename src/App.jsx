@@ -8,6 +8,7 @@ import Footer from './component/Footer.jsx'
 import Men from './pages/Men.jsx'
 import Women from './pages/Women.jsx'
 import Kids from './pages/Kids.jsx'
+import UnFound from './pages/UnFound.jsx'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='women' element={<Women/>} />
         <Route path='kid' element={<Kids/>} />
         </Route>
+        <Route path='*' element={<UnFound/>}/>
 
       </Routes>
       </main>

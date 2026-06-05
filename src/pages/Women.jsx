@@ -4,7 +4,7 @@ const Women = () => {
   return (
     
       <div>
-      <h1 className='flex h-full text-5xl underline items-center justify-center text-red-600'>Wellcome in Women's Collections</h1>
+      <h1 className='flex h-full text-5xl underline items-center justify-center text-white'>Wellcome in Women's Collections</h1>
     </div>
     
   )

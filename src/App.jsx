@@ -5,11 +5,14 @@ import Contact from './pages/Contact'
 import Nav from './component/Nav.jsx'
 import Product from './pages/Product.jsx'
 import Footer from './component/Footer.jsx'
+import Men from './pages/Men.jsx'
+import Women from './pages/Women.jsx'
+import Kids from './pages/Kids.jsx'
 
 
 const App = () => {
   return (
-    <div className='flex flex-col h-screen'>
+    <div className='flex flex-col h-full justify-center'>
       
       <Nav/>
      
@@ -18,7 +21,11 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/product' element={<Product/>}/>
+        <Route path='/product' element={<Product/>}>
+        <Route path='men' element={<Men/>} />
+        <Route path='women' element={<Women/>} />
+        <Route path='kid' element={<Kids/>} />
+        </Route>
 
       </Routes>
       </main>

@@ -9,6 +9,7 @@ import Men from './pages/Men.jsx'
 import Women from './pages/Women.jsx'
 import Kids from './pages/Kids.jsx'
 import UnFound from './pages/UnFound.jsx'
+import Courses from './pages/Courses.jsx'
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
       <Routes >
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/about/:id' element={<Courses/>}/>
+        
         <Route path='/contact' element={<Contact/>} />
         <Route path='/product' element={<Product/>}>
         <Route path='men' element={<Men/>} />

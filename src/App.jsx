@@ -10,6 +10,7 @@ import Women from './pages/Women.jsx'
 import Kids from './pages/Kids.jsx'
 import UnFound from './pages/UnFound.jsx'
 import Courses from './pages/Courses.jsx'
+import Nav2 from './component/Nav2.jsx'
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
     <div className='flex flex-col h-full justify-center'>
       
       <Nav/>
+       
+        <Nav2/>
      
       <main className='flex-1'>
       <Routes >
@@ -33,6 +36,7 @@ const App = () => {
         <Route path='*' element={<UnFound/>}/>
 
       </Routes>
+     
       </main>
 
        <Footer/>

@@ -11,6 +11,7 @@ import Kids from './pages/Kids.jsx'
 import UnFound from './pages/UnFound.jsx'
 import Courses from './pages/Courses.jsx'
 import Nav2 from './component/Nav2.jsx'
+import Button from './component/button.jsx'
 
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
       
       <Nav/>
        
-        <Nav2/>
+      <Nav2/>
+      <Button/>
      
       <main className='flex-1'>
       <Routes >
@@ -38,6 +40,8 @@ const App = () => {
       </Routes>
      
       </main>
+
+      
 
        <Footer/>
       
